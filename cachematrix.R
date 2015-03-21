@@ -1,5 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+
 # Create a function for a matrix inverse.
 # Initialize the 'cache' function to a numeric vector
 makeCacheMatrix <- function(x = matrix()) {
@@ -12,9 +13,8 @@ makeCacheMatrix <- function(x = matrix()) {
         }
 }
 
-
 ## Write a short comment describing this function
-# Calculate the inverse matrixo f the special "vector" created with the above function
+# Calculate the inverse matrix of the special "vector" created with the above function
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         #Assign a vector to "makeCacheMatrix" and name it "get"
